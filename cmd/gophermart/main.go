@@ -1,3 +1,7 @@
 package main
 
-func main() {}
+import "github.com/lRhythm/gophermart/internal/app"
+
+func main() {
+	app.Start()
+}
